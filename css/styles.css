@@ -20,17 +20,9 @@ body {
 
 .link {
   text-decoration: none;
-  line-height: 1.5;
+  /* line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.link:hover {
-  color: #404bbf;
-}
-
-.link:focus {
-  color: #404bbf;
+  color: #434455; */
 }
 
 .logotext {
@@ -47,6 +39,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.link:hover {
+  color: #404bbf;
+}
+
+.link:focus {
+  color: #404bbf;
 }
 
 .contacts {
@@ -97,4 +97,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.third-header,
+.fourth-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.fourth-section {
+  background-color: #f4f4fd;
 }
