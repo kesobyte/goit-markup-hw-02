@@ -35,6 +35,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.list .nav-contact {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -147,4 +155,19 @@ body {
 .btn-menu:focus {
   color: #ffffff;
   background-color: #404bbf;
+}
+
+.list .list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.list .list-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  color: #434455;
 }
