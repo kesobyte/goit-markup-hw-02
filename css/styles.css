@@ -1,12 +1,21 @@
 :root {
+  --slate: #434455;
   --iris: #4d5ae5;
+  --white: #ffffff;
+  --navy-blue: #2e2f42;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
 }
+
+/* INDEX PAGE */
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--slate);
+  background-color: var(--white);
 }
+
+/* Header */
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -15,51 +24,53 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris);
 }
+
+/* Navigation Items */
 
 .link {
   text-decoration: none;
 }
 
-.logotext {
-  color: #2e2f42;
+.header-logo {
+  color: var(--navy-blue);
 }
 
 .list {
   list-style: none;
 }
 
-.nav-item .link {
+.list-item > .item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
-.nav-contact .link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+li > .link:hover,
+li > .link:focus {
+  color: var(--ocean);
 }
 
-.link:hover {
-  color: #404bbf;
-}
-
-.link:focus {
-  color: #404bbf;
-}
+/* Address */
 
 .contacts {
   font-style: normal;
 }
 
+.contact-item > .contact {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* First Section */
+
 .first-section {
-  background-color: #2e2f42;
+  background-color: var(--navy-blue);
 }
 
 .header {
@@ -67,74 +78,86 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: var(--white);
 }
 
 .button {
-  background-color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
+  background-color: var(--iris);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
 }
 
-.button:hover {
-  background-color: #404bbf;
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
 }
 
-.button:focus {
-  background-color: #404bbf;
-}
+/* Second Section */
 
 .list-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
-.third-header,
-.fourth-header {
+/* Third Section */
+
+.header-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
+
+/* Fourth Section */
 
 .fourth-section {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 
-.list .list-item {
-  background-color: #fff;
+/* Reused third section header from main */
+
+.list .item {
+  background-color: var(--white);
 }
+
+/* Reused item header from main  */
+
+/* Footer */
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--navy-blue);
 }
 
-.logo-footer {
-  color: #f4f4fd;
+.footer-logo {
+  color: var(--cloud);
 }
 
-.logo-footer-text {
+.footer-text {
   line-height: 1.5;
-  color: #f4f4fd;
+  color: var(--cloud);
   letter-spacing: 0.02em;
 }
+
+/* FORTFOLIO PAGE */
+
+/* Main */
 
 .btn-menu {
   font-family: inherit;
@@ -142,32 +165,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--iris);
+  background-color: var(--cloud);
   cursor: pointer;
 }
 
-.btn-menu:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-
+.btn-menu:hover,
 .btn-menu:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white);
+  background-color: var(--ocean);
 }
 
-.list .list-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.list .list-desc {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+/* Reused item header from main  */
